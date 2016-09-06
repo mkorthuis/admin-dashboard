@@ -1,0 +1,9 @@
+<h3>Message Workflows</h3>
+<div class="row">
+<div class="col-md-6">
+<div class="list-group">
+<a ng-repeat="workflow in $ctrl.workflowList" class="list-group-item" ui-sref="message.workflow-detail({id: workflow.id})">{{workflow.name}}</a>
+</div>
+</div>
+</div>
+<button type="button" class="btn btn-primary">Add</button>
